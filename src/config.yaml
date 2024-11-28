@@ -1,0 +1,58 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be a string
+  name: some_cookie_name
+credentials:
+  usernames:
+    juan:
+      email: contatojuanguerra@gmal.com
+      failed_login_attempts: 0 # Will be managed automatically
+      first_name: Juan
+      last_name: Guerra
+      logged_in: False # Will be managed automatically
+      password: abc # Will be hashed automatically
+      roles: # Optional
+      - admin
+      - editor
+    leo:
+      email: leozindascarauba@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      first_name: Leonardo
+      last_name: Melo
+      logged_in: False # Will be managed automatically
+      password: cursinho2024 # Will be hashed automatically
+      roles: # Optional
+      - admin
+      - editor
+    guedes:
+      email: guedesdopotira@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      first_name: Gustavo
+      last_name: Guedes
+      logged_in: False # Will be managed automatically
+      password: cursinho2024 # Will be hashed automatically
+      roles: # Optional
+      - admin
+      - editor
+    estudante:
+      email: estudante@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      first_name: Flávio
+      last_name: Barbosa
+      logged_in: False # Will be managed automatically
+      password: estudante # Will be hashed automatically
+      roles: # Optional
+      - student
+oauth2: # Optional
+  google: # Follow instructions: https://developers.google.com/identity/protocols/oauth2
+    client_id: # To be filled
+    client_secret: # To be filled
+    redirect_uri: # URL to redirect to after OAuth2 authentication
+  microsoft: # Follow instructions: https://learn.microsoft.com/en-us/graph/auth-register-app-v2
+    client_id: # To be filled
+    client_secret: # To be filled
+    redirect_uri: # URL to redirect to after OAuth2 authentication
+    tenant_id: # To be filled
+pre-authorized: # Optional
+  emails:
+  - contatojuanguerra@gmail.com
