@@ -120,6 +120,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.savevenv
 .env
 .venv
 env/
@@ -161,3 +162,5 @@ cython_debug/
 
 #streamlit
 .streamlit
+
+.gitignore
