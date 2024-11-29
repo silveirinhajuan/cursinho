@@ -2,11 +2,16 @@ import yaml
 import streamlit as st
 from roles.admin import admin
 from roles.student import student
-from streamlit_option_menu import option_menu
-import streamlit_authenticator as stauth
 from yaml.loader import SafeLoader
+import streamlit_authenticator as stauth
+from streamlit_option_menu import option_menu
 
-with open('src/config.yaml') as file:
+st.set_page_config(
+    page_icon="📓",
+    page_title="Cursinho"
+)
+
+with open('src/config.yaml', "r",encoding='utf-8') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
 # Pre-hashing all plain text passwords once
@@ -20,13 +25,12 @@ authenticator = stauth.Authenticate(
 )
 
 def main():
+    print(st.session_state['roles'])
+    if "admin" in st.session_state['roles']:
+        admin.admin_page(st.session_state["name"], authenticator)
+    elif "student" in st.session_state['roles']:
+        student.student_page(st.session_state["name"], authenticator)
     
-    with st.sidebar:
-        selected = option_menu(None, ["Home", 'Settings', "Sair"], 
-            icons=['house', 'gear', 'box-arrow-right'], menu_icon="cast", default_index=1)
-        if selected == "Sair":
-            authenticator.logout()
-
     # horizontal Menu
     selected2 = option_menu(None, ["Home", "Upload", "Tasks", 'Settings'], 
         icons=['house', 'cloud-upload', "list-task", 'gear'], 
