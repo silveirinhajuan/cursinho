@@ -43,5 +43,10 @@ try:
     authenticator.login()
     if st.session_state['authentication_status']:
         main()
+    elif st.session_state['authentication_status'] is False:
+        st.error('Usuário/senha está incorreta')
+    elif st.session_state['authentication_status'] is None:
+        st.warning('Por favor, coloque seu usuário e senha')
+        
 except Exception as e:
     st.error(e)
