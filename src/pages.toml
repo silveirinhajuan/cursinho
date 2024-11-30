@@ -1,0 +1,20 @@
+#Página de início
+[[pages]]
+path = "src/home.py"
+name = "Início"
+icon = "🏠"
+
+[[pages]]
+name = "Configurações"
+icon = "🛠"
+is_section = true
+
+[[pages]]
+name = "Configurações"
+path = "src/settings.py"
+icon = "⚙"
+
+[[pages]]
+name = "Conta"
+path = "src/conta.py"
+icon = "🤓"
