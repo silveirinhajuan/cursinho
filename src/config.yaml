@@ -38,7 +38,7 @@ credentials:
       email: aline@gmail.com
       failed_login_attempts: 0 # Will be managed automatically
       first_name: Aline
-      last_name: Menezes
+      last_name: Stefani
       logged_in: False # Will be managed automatically
       password: aline # Will be hashed automatically
       roles: # Optional
