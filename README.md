@@ -1,7 +1,3 @@
-Aqui está uma sugestão de README para o seu projeto "Cursinho". Ele é informativo, atrativo e estruturado para atrair tanto colaboradores quanto usuários interessados:
-
----
-
 # 📘 Cursinho  
 
 **Cursinho** é uma plataforma digital desenvolvida para apoiar e otimizar as atividades de um **cursinho beneficente em Caucaia, Ceará, Brasil**. Nosso objetivo é criar ferramentas acessíveis e intuitivas que fortaleçam a educação gratuita, oferecendo uma melhor gestão de recursos e suporte a alunos e professores.
@@ -107,7 +103,3 @@ Para saber mais sobre mim ou entrar em contato, visite meu [GitHub](https://gith
 ## 📜 Licença  
 
 Este projeto está licenciado sob a **MIT License** – veja o arquivo [LICENSE](./LICENSE) para detalhes.
-
----
-
-Se precisar de mais ajustes ou quiser destacar algo específico do projeto, posso ajustar!
