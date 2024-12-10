@@ -1,105 +1,105 @@
 # 📘 Cursinho  
 
-**Cursinho** é uma plataforma digital desenvolvida para apoiar e otimizar as atividades de um **cursinho beneficente em Caucaia, Ceará, Brasil**. Nosso objetivo é criar ferramentas acessíveis e intuitivas que fortaleçam a educação gratuita, oferecendo uma melhor gestão de recursos e suporte a alunos e professores.
+**Cursinho** is a digital platform designed to support and optimize the activities of a **charitable preparatory course in Caucaia, Ceará, Brazil**. Our goal is to create accessible and intuitive tools to strengthen free education, offering better resource management and support for students and teachers.
 
 ---
 
-## 🎯 Objetivo  
+## 🎯 Objective  
 
-Criar um ambiente digital que facilite:  
-- **Acompanhamento dos alunos**: Registro de frequência, notas e progresso.  
-- **Gestão de aulas**: Organização de horários, conteúdos e atividades.  
-- **Comunicação eficiente**: Conexão entre alunos e professores em um espaço integrado.  
+To create a digital environment that facilitates:  
+- **Student tracking**: Attendance records, grades, and progress monitoring.  
+- **Class management**: Scheduling, content organization, and activities.  
+- **Efficient communication**: Connecting students and teachers in an integrated space.  
 
-Com isso, buscamos **potencializar o impacto social do cursinho**, ajudando mais estudantes a alcançarem seus objetivos acadêmicos.
-
----
-
-## 🛠️ Tecnologias  
-
-O projeto utiliza as seguintes tecnologias:  
-
-- **[Python](https://www.python.org/)**: A linguagem principal para lógica de negócios e backend.  
-- **[Flet](https://flet.dev/)**: Framework para construção de interfaces modernas e multiplataforma.  
+With this, we aim to **maximize the social impact of the preparatory course**, helping more students achieve their academic goals.
 
 ---
 
-## 🚀 Funcionalidades  
+## 🛠️ Technologies  
 
-### 🎓 Para Alunos  
-- Acesso ao calendário de aulas.  
-- Visualização de materiais disponibilizados pelos professores.  
-- Registro de desempenho em simulados e atividades.  
+The project uses the following technologies:  
 
-### 🧑‍🏫 Para Professores  
-- Gerenciamento de turmas e conteúdos.  
-- Registro de frequência e notas.  
-- Comunicação direta com os alunos.  
-
-### 🏫 Para Administradores  
-- Relatórios detalhados sobre o desempenho geral.  
-- Organização do cronograma de aulas e professores.  
-- Controle de acesso e permissões dos usuários.
+- **[Python](https://www.python.org/)**: The main language for business logic and backend.  
+- **[Flet](https://flet.dev/)**: A framework for building modern, cross-platform interfaces.  
 
 ---
 
-## 📂 Estrutura do Projeto  
+## 🚀 Features  
+
+### 🎓 For Students  
+- Access to class schedules.  
+- View materials shared by teachers.  
+- Track performance in simulations and activities.  
+
+### 🧑‍🏫 For Teachers  
+- Manage classes and content.  
+- Record attendance and grades.  
+- Communicate directly with students.  
+
+### 🏫 For Administrators  
+- Detailed reports on overall performance.  
+- Organize class schedules and teacher assignments.  
+- Control access and user permissions.
+
+---
+
+## 📂 Project Structure  
 
 ```
 cursinho/
 │
-├── app/                # Arquivos principais da aplicação
-│   ├── views/          # Interfaces desenvolvidas com Flet
-│   ├── models/         # Estruturas de dados e lógica de negócios
-│   └── controllers/    # Funções que conectam a lógica e a interface
+├── app/                # Main application files
+│   ├── views/          # Interfaces built with Flet
+│   ├── models/         # Data structures and business logic
+│   └── controllers/    # Functions connecting logic and UI
 │
-├── static/             # Recursos estáticos (imagens, CSS)
-├── tests/              # Testes unitários
-└── README.md           # Documentação do projeto
+├── static/             # Static resources (images, CSS)
+├── tests/              # Unit tests
+└── README.md           # Project documentation
 ```
 
 ---
 
-## 🌟 Como Usar  
+## 🌟 How to Use  
 
-1. Clone o repositório:  
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/seu-usuario/cursinho.git
+   git clone https://github.com/your-username/cursinho.git
    cd cursinho
    ```
 
-2. Instale as dependências:  
+2. Install the dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Execute o aplicativo:  
+3. Run the application:  
    ```bash
    python main.py
    ```
 
-4. Acesse no navegador (ou no ambiente Flet, se configurado).  
+4. Access via the browser (or Flet environment, if configured).  
 
 ---
 
-## 🤝 Contribuindo  
+## 🤝 Contributing  
 
-Sinta-se à vontade para colaborar com o projeto! Para contribuir:  
-1. Faça um fork deste repositório.  
-2. Crie uma branch para sua feature (`git checkout -b minha-feature`).  
-3. Faça o commit das suas alterações (`git commit -m 'Adicionei uma nova funcionalidade'`).  
-4. Envie um push para a branch (`git push origin minha-feature`).  
-5. Abra um **Pull Request**.  
-
----
-
-## 🧑‍💻 Autor  
-
-Desenvolvido com 💙 por **Juan Guerra**.  
-Para saber mais sobre mim ou entrar em contato, visite meu [GitHub](https://github.com/seu-usuario) ou [LinkedIn](https://linkedin.com/in/silveirinhajuan).
+Feel free to contribute to the project! To contribute:  
+1. Fork this repository.  
+2. Create a branch for your feature (`git checkout -b my-feature`).  
+3. Commit your changes (`git commit -m 'Added a new feature'`).  
+4. Push to the branch (`git push origin my-feature`).  
+5. Open a **Pull Request**.  
 
 ---
 
-## 📜 Licença  
+## 🧑‍💻 Author  
 
-Este projeto está licenciado sob a **MIT License** – veja o arquivo [LICENSE](./LICENSE) para detalhes.
+Developed with 💙 by **Juan Guerra**.  
+To learn more about me or get in touch, visit my [GitHub](https://github.com/your-username) or [LinkedIn](https://linkedin.com/in/silveirinhajuan).
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
