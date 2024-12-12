@@ -5,7 +5,7 @@ import streamlit_authenticator as stauth
 from streamlit_option_menu import option_menu
 
 ###Pages
-#Student  area
+#Student area
 home_page = st.Page(
     page='pages_app/home.py',
     title='Início',

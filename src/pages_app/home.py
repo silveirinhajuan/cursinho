@@ -8,5 +8,7 @@ def homepage():
     st.divider()
     
     st.write("terá um blog aqui...")
+    
+    
 homepage()
     

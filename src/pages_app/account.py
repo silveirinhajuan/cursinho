@@ -1,3 +1,6 @@
 import streamlit as st
 
-hello
+def account_page():
+    st.image('src/imgs/profile_photo.webp')
+
+account_page()
