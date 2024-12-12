@@ -20,7 +20,7 @@ With this, we aim to **maximize the social impact of the preparatory course**, h
 The project uses the following technologies:  
 
 - **[Python](https://www.python.org/)**: The main language for business logic and backend.  
-- **[Flet](https://flet.dev/)**: A framework for building modern, cross-platform interfaces.  
+- **[Streamlit](https://streamlit.io/)** A framework for building modern, cross-platform interfaces.  
 
 ---
 
